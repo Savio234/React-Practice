@@ -1,0 +1,8 @@
+.nav-list {
+    display: flex;
+    gap: 1rem;
+}
+.nav-list p {
+    font-size: 2rem;
+    line-height: 3rem;
+}
