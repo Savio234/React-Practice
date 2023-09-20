@@ -1,0 +1,27 @@
+.body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.cards {
+    width: 50%;
+    padding: 1.6rem;
+    height: 24rem;
+    margin-bottom: 2rem;
+    border-radius: 1.6rem;
+    color: #FFF;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.cards h3 {
+    font-size: 2.4rem;
+    line-height: 3.2rem;
+    margin-bottom: 1rem;
+    font-weight: 900;
+}
+.cards p {
+    font-size: 1.6rem;
+    line-height: 2rem;
+    font-weight: 400;
+    margin-bottom: 1rem;
+}

@@ -19,7 +19,7 @@ const ScrollToTop = () => {
         behavior: "smooth"
       })
     }
-    console.log('Scrolling', scrollUp);
+    
   return (
     <div>
       {

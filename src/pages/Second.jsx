@@ -1,8 +1,9 @@
 import React from 'react'
+import SecondPage from '../components/Second/Second'
 
 const Second = () => {
   return (
-    <div>Second</div>
+    <SecondPage />
   )
 }
 
