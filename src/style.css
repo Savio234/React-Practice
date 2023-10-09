@@ -2,6 +2,16 @@ html {
   font-size: calc(100vw / 1440 * 10);
   scroll-behavior: smooth;
 }
+@font-face {
+  font-family: 'satoshi';
+  src: url('./assets//fonts/Satoshi-Regular.woff2');
+  font-weight: 400;
+}
+@font-face {
+  font-family: 'satoshi-bold';
+  src: url('./assets/fonts/Satoshi-Bold.woff2');
+  font-weight: 700;
+}
 * {
   box-sizing: border-box;
   margin: 0;
@@ -17,6 +27,12 @@ p,
 span {
   caret-color: transparent;
 }
+p, a, span, h4, h5, h6 {
+  font-family: 'satoshi'
+}
+h1, h2, h3 {
+  font-family: 'satoshi-bold';
+}
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -29,4 +45,28 @@ body {
 a {
   text-decoration: none;
   color: inherit;
+}
+img {
+  width: 100%;
+  height: 100%;
+}
+
+.flex {
+  display: flex;
+}
+.flex-between {
+  justify-content: space-between;
+}
+.flex-column {
+  flex-direction: column;
+}
+.align-center {
+  justify-content: center;
+  align-items: center;
+}
+.relative {
+  position: relative;
+}
+.flex-wrap {
+  flex-wrap: wrap;
 }

@@ -1,8 +1,11 @@
 import React from 'react'
+import ThirdPage from '../components/Third/Third'
 
 const Third = () => {
   return (
-    <div>Third</div>
+    <div>
+      <ThirdPage />
+    </div>
   )
 }
 

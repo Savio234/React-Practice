@@ -1,6 +1,6 @@
 import React from 'react'
 import Contact from '../Contact/Contact'
-import data from './FirstData'
+import data from '../../mock/FirstData'
 
 const FirstPage = () => {
   return (
