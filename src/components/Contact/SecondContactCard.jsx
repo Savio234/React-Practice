@@ -8,7 +8,7 @@ const SecondContactCard = (props) => {
         <div className="card">
             {props.item.openSlots === 0 && <div className="badge">SOLD OUT</div>}
             <div style={{background: `${props.item.bg}`}} className="img">
-                <img src={props.item.img} alt="" />
+                {/* <img src={props.item.img} alt="" /> */}
             </div>
             <h3>{props.item.name}</h3>
             <div className="">
