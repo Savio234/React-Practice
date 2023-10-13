@@ -57,8 +57,17 @@ img {
 .flex-between {
   justify-content: space-between;
 }
+.flex-around {
+  justify-content: space-around;
+}
 .flex-column {
   flex-direction: column;
+}
+.flex-center {
+  align-items: center;
+}
+.justify-center {
+  justify-content: center;
 }
 .align-center {
   justify-content: center;

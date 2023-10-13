@@ -1,8 +1,9 @@
 .nav-list {
     display: flex;
-    gap: 1rem;
+    gap: 4rem;
+    margin: 1rem 0 0 2rem;
 }
 .nav-list p {
-    font-size: 2rem;
-    line-height: 3rem;
+    font-size: 3.2rem;
+    line-height: 4rem;
 }

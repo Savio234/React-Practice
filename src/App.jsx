@@ -1,9 +1,9 @@
 import { Routes, Route } from 'react-router-dom';
-import Home from './pages/First'
+import Home from './pages/Home'
 import Second from './pages/Second'
 import Third from './pages/Third'
-import Nav from './components/Nav/Nav'
 import FourthPage from './pages/Fourth'
+import Nav from './components/Nav/Nav'
 import ScrollToTop from './components/Scroll/ScrollToTop';
 
 function App() {

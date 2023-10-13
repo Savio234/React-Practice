@@ -14,7 +14,7 @@ const Contact = (props) => {
     <div className='body'>
         <div className="card">
             <div style={{background: `${props.bg}`}} className="img">
-                <img src={props.img} alt="" />
+                {/* <img src={props.img} alt="" /> */}
             </div>
             <h3>{props.name}</h3>
             <p>{props.phone}</p>
