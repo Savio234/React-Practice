@@ -1,11 +1,11 @@
 import React from 'react'
-import FirstPage from '../components/First/FirstPage'
+import HomePage from '../components/Home/Homepage'
 
-const First = () => {
+const Home = () => {
 
   return (
-    <FirstPage />
+    <HomePage />
   )
 }
 
-export default First
+export default Home

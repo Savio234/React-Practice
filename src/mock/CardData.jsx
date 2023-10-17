@@ -15,45 +15,45 @@ export default [
         location: 'CMS'
     },
     {
-    id: 2,
-    bg: "#4EC264",
-    img: "",
-    name: "Joao Felix",
-    openSlots: 20,
-    stats: {
-        reviewCount: 9,
-        rating: 3,
-    },
-    phone: "(254)-555-0853",
-    email: "funasTrust@gmail.com",
-    location: 'Online'
-    },
-    {
-    id: 3,
-    bg: "#C15BFD",
-    img: "",
-    name: "Exposito Drew",
-    openSlots: 29,
-    stats: {
-        reviewCount: 23,
-        rating: 4.5,
-    },
-    phone: "(322)-555-3467",
-    email: "deveregrind@gmail.com",
-    location: 'Aratunmi'
+        id: 2,
+        bg: "#4EC264",
+        img: "",
+        name: "Joao Felix",
+        openSlots: 20,
+        stats: {
+            reviewCount: 9,
+            rating: 3,
+        },
+        phone: "(254)-555-0853",
+        email: "funasTrust@gmail.com",
+        location: 'Online'
     },
     {
-    id: 4,
-    bg: "#FEDF00",
-    img: "",
-    name: "Hojlund",
-    openSlots: 0,
-    stats: {
-        reviewCount: 15,
-        rating: 4,
+        id: 3,
+        bg: "#C15BFD",
+        img: "",
+        name: "Exposito Drew",
+        openSlots: 29,
+        stats: {
+            reviewCount: 23,
+            rating: 4.5,
+        },
+        phone: "(322)-555-3467",
+        email: "deveregrind@gmail.com",
+        location: 'Aratunmi'
     },
-    phone: "(443)-555-6783",
-    email: "setunilever@gmail.com",
-    location: 'Ikeja, Lagos'
+    {
+        id: 4,
+        bg: "#FEDF00",
+        img: "",
+        name: "Hojlund",
+        openSlots: 0,
+        stats: {
+            reviewCount: 15,
+            rating: 4,
+        },
+        phone: "(443)-555-6783",
+        email: "setunilever@gmail.com",
+        location: 'Ikeja, Lagos'
     },
 ]

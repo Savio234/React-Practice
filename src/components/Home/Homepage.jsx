@@ -1,11 +1,12 @@
 import React from 'react'
-import Contact from '../Contact/Contact'
+import Contact from '../Contact/Contactcard'
+import Memegenerator from '../MemeGenerator/Memegenerator'
 import data from '../../mock/HomePageData'
 
 const FirstPage = () => {
   return (
     <>
-      <div style={{margin: '4rem 0 3rem'}} className="flex flex-around flex-wrap">
+      <div style={{margin: '4rem 0 8rem'}} className="flex flex-around flex-wrap">
         {
           data.map(date => {
             return (
@@ -21,6 +22,7 @@ const FirstPage = () => {
           })
         }
       </div>
+      <Memegenerator />
     </>
   )
 }
