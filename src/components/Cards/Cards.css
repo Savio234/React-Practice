@@ -84,3 +84,31 @@
     color: #666481;
     font-weight: 600;
 }
+
+.bo-dy {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.joke-card {
+    width: 50%;
+    padding: 1.6rem;
+    height: 24rem;
+    margin-bottom: 2rem;
+    border-radius: 1.6rem;
+    color: #FFF;
+    font-family: 'satoshi';
+}
+.joke-card h3 {
+    font-size: 2.4rem;
+    line-height: 3.2rem;
+    margin-bottom: 1rem;
+    font-weight: 900;
+}
+.joke-card p {
+    font-size: 1.6rem;
+    line-height: 2rem;
+    font-weight: 400;
+    margin-bottom: 1rem;
+}

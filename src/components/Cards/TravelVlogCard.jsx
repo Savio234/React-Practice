@@ -1,6 +1,6 @@
 import React from 'react'
 import { MdLocationPin } from 'react-icons/md'
-import './Contact.css'
+import './Cards.css'
 
 const ProjectCard = (props) => {
   return (

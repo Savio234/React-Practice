@@ -1,5 +1,5 @@
 import React from 'react'
-import './Contact.css'
+import './Cards.css'
 
 const SecondContactCard = (props) => {
     console.log(props.item);

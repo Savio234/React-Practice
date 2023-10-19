@@ -4,7 +4,7 @@ import Second from './pages/Second'
 import Third from './pages/Third'
 import FourthPage from './pages/Fourth'
 import Nav from './components/Nav/Nav'
-import ScrollToTop from './components/Scroll/ScrollToTop';
+import ScrollToTop from './components/ScrollToTop/ScrollToTop';
 
 function App() {
   return (

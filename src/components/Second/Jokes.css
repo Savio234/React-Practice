@@ -1,25 +1,25 @@
-.body {
+.bo-dy {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
-.cards {
+.joke-card {
     width: 50%;
     padding: 1.6rem;
     height: 24rem;
     margin-bottom: 2rem;
     border-radius: 1.6rem;
     color: #FFF;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: 'satoshi';
 }
-.cards h3 {
+.joke-card h3 {
     font-size: 2.4rem;
     line-height: 3.2rem;
     margin-bottom: 1rem;
     font-weight: 900;
 }
-.cards p {
+.joke-card p {
     font-size: 1.6rem;
     line-height: 2rem;
     font-weight: 400;

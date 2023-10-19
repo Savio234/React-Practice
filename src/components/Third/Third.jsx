@@ -1,15 +1,15 @@
 import React from 'react'
-import ProjectCard from '../Contact/ProjectCard'
-import ProjectData1 from '../../mock/ProjectData1'
+import TravelVlogCard from '../Cards/TravelVlogCard'
+import TravelData from '../../mock/travelVlogData'
 import './Third.css'
 
 const Third = () => {
   return (
     <div className='projectBody'>
       {
-        ProjectData1.map(data => {
+        TravelData.map(data => {
           return (
-            <ProjectCard
+            <TravelVlogCard
               key={data.title}
               {...data}
             />

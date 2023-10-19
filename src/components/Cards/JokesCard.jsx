@@ -1,10 +1,10 @@
 import React from 'react'
-import './Second.css'
+import './Cards.css'
 
-const SecondCard = (props) => {
+const JokesCard = (props) => {
   return (
-    <div className='body'>
-        <div style={{background: `${props.bg}`}} className="cards">
+    <div className='bo-dy'>
+        <div style={{background: `${props.bg}`}} className="joke-card">
             {props.joke && (<h3>Setup: <br /> {props.joke}</h3>)}
             {props.punchline && (<p>PunchLine: {props.punchline}</p>)}
             <h3>Upvotes: {props.upvote}</h3>
@@ -14,4 +14,4 @@ const SecondCard = (props) => {
   )
 }
 
-export default SecondCard
+export default JokesCard

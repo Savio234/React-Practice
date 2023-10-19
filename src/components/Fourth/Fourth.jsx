@@ -1,6 +1,6 @@
 import React from 'react'
 import CardData from '../../mock/CardData'
-import SecondContactCard from '../Contact/SecondContactCard'
+import SecondContactCard from '../Cards/SecondContactCard'
 
 const FourthPage = () => {
   return (
