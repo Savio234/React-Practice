@@ -1,15 +1,30 @@
 import React from 'react'
 import IMG1 from '../../assets/images/c.jpg'
-import CardData from '../../mock/CardData'
+import memesData from '../../mock/memesData'
 import './Memegenerator.css'
 
 const Memegenerator = () => {
     function getRandomUrl() {
-        let random;
-        random = Math.floor(Math.random() * CardData.length)
+        const LEN = memesData.length
+        const random = Math.floor(Math.random() * LEN)
         console.log(random);
+        const randomID = memesData[random].id;
+        console.log(randomID);
     }
-    // console.log(getRandomUrl());
+
+    let arrays = ['Thing 1', 'Thing 2', 'Thing 3', 'Thing 4']
+    // eslint-disable-next-line
+    // const add = arrays.push(`Thing ${arrays.length + 1}`)
+    console.log(arrays);
+    const elem = arrays.map(arr => <p>{arr}</p>)
+
+    function addElement() {
+        const add =  arrays.push(`Thing ${arrays.length + 1}`)
+        // arrays.push(add)
+        console.log(arrays);
+    }
+
+
   return (
     <div className='meme-container'>
         <div className="meme-header flex flex-center flex-between">
@@ -36,8 +51,12 @@ const Memegenerator = () => {
                 </button>
 
                 <div className="randomImage">
-                    
+                 {elem}
                 </div>
+
+                <button onClick={addElement}>
+                    Add Element
+                </button>
             {/* </form> */}
         </div>
     </div>

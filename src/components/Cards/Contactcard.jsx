@@ -1,7 +1,7 @@
 import React from 'react'
 import './Cards.css'
 
-const Contact = (props) => {
+const Contactcard = (props) => {
   const currentDate = new Date();
   const year = currentDate.getFullYear();
   const month = currentDate.getMonth() + 1;
@@ -24,4 +24,4 @@ const Contact = (props) => {
   )
 }
 
-export default Contact
+export default Contactcard

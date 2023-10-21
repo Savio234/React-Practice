@@ -25,6 +25,7 @@
     align-items: center;
     padding: 1rem;
     position: relative;
+    margin-bottom: 2rem;
 }
 .img {
     width: 24rem;
