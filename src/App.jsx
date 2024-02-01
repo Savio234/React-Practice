@@ -3,6 +3,7 @@ import Home from './pages/Home'
 import Second from './pages/Second'
 import Third from './pages/Third'
 import FourthPage from './pages/Fourth'
+import State from './pages/state';
 import Nav from './components/Nav/Nav'
 import ScrollToTop from './components/ScrollToTop/ScrollToTop';
 
@@ -15,6 +16,7 @@ function App() {
         <Route path='/second' element={<Second />} />
         <Route path='/third' element={<Third />} />
         <Route path='/fourth' element={<FourthPage />} />
+        <Route path='/state' element={<State />} />
       </Routes>
       <ScrollToTop />
     </>
