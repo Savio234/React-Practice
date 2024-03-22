@@ -6,6 +6,7 @@ import FourthPage from './pages/Fourth'
 import State from './pages/state';
 import Nav from './components/Nav/Nav'
 import ScrollToTop from './components/ScrollToTop/ScrollToTop';
+import Cake from './pages/Cake';
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
         <Route path='/third' element={<Third />} />
         <Route path='/fourth' element={<FourthPage />} />
         <Route path='/state' element={<State />} />
+        <Route path='/cake' element={<Cake />} />
       </Routes>
       <ScrollToTop />
     </>

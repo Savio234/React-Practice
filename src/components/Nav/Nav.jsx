@@ -12,6 +12,7 @@ const Nav = () => {
               <p><Link to='/third'>third</Link></p>
               <p><Link to='/fourth'>fourth</Link></p>
               <p><Link to='/state'>states</Link></p>
+              <p><Link to='/cake'>cake</Link></p>
             </div>
         </nav>
     </div>
