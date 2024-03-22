@@ -6,9 +6,9 @@ import Second from './pages/Second'
 import Third from './pages/Third'
 import FourthPage from './pages/Fourth'
 import State from './pages/state';
-import Nav from './components/Nav/Nav'
+import { Nav } from './shared';
 import ScrollToTop from './components/ScrollToTop/ScrollToTop';
-import Cake from './pages/Cake';
+import Redux from './pages/redux';
 
 function App() {
   return (
@@ -20,7 +20,7 @@ function App() {
         <Route path='/third' element={<Third />} />
         <Route path='/fourth' element={<FourthPage />} />
         <Route path='/state' element={<State />} />
-        <Route path='/cake' element={<Cake />} />
+        <Route path='/redux' element={<Redux />} />
       </Routes>
       <ScrollToTop />
     </Provider>
