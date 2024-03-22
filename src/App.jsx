@@ -1,4 +1,6 @@
 import { Routes, Route } from 'react-router-dom';
+import { Provider } from 'react-redux';
+import store from './redux/store';
 import Home from './pages/Home'
 import Second from './pages/Second'
 import Third from './pages/Third'
@@ -10,7 +12,7 @@ import Cake from './pages/Cake';
 
 function App() {
   return (
-    <>
+    <Provider store={store}>
       <Nav />
       <Routes>
         <Route path='/' element={<Home />} />
@@ -21,7 +23,7 @@ function App() {
         <Route path='/cake' element={<Cake />} />
       </Routes>
       <ScrollToTop />
-    </>
+    </Provider>
   );
 }
 
