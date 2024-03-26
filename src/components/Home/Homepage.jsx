@@ -2,8 +2,10 @@ import React from 'react'
 import ContactCard from '../Cards/Contactcard'
 import Memegenerator from '../MemeGenerator/Memegenerator'
 import Cardsdata from '../../mock/HomePageData'
+import Slider from '../../shared/imageSlider/Slider'
 
 const FirstPage = () => {
+  const slides = [1, 2, 3, 4]
   return (
     <>
       <div style={{margin: '4rem 0 8rem'}} className="flex flex-around flex-wrap">
@@ -23,6 +25,7 @@ const FirstPage = () => {
         }
       </div>
       <Memegenerator />
+      <Slider slides={slides} />
     </>
   )
 }
